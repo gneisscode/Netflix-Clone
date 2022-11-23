@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800;500&family=Roboto:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    color: #ffffff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:fit-content;
+}
+
+.container__1{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(images/bg-image.jpg);
+        background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.container__1__text{
+    margin-top: 8em;
+    text-align: center;
+    line-height: 4em;
+}
+
+.container__1__text h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.container__1__text p, .FAQ__p{
+    font-weight: 600;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 3em;
+  margin-top: -1em;
+}
+.nav__logo img {
+  width: 220px;
+  height: 120px;
+  
+}
+.nav__btn button{
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 0.8em 1.5em 0.8em 1.5em;
+    font-weight: 700;
+    border: none;
+    border-radius: 2.5px;
+    ;
+}
+
+.form__section {
+    width: 570px;
+    align-self: center;
+    margin-bottom: 8em;
+}
+
+.form__input {
+    width: 400px;
+    height: 50px;
+    outline: none;
+    font-size: 24px;
+   padding: 1em;
+}
+
+.form__btn {
+    width: 160px;
+    height: 50px;
+    background-color: #e50914;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+hr{
+    border: solid 5px #222;
+   
+}
+
+.container__2, .container__3, .container__4, .container__5, .container__6{
+    background-color:#000 ;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.container__2__text, .container__3__text, .container__4__text, .container__5__text{
+    line-height: 2em;
+   align-self: center;
+   margin-left: 8em;
+   margin-bottom: 2em;
+}
+
+.container__2__text h1, .container__3__text h1, .container__4__text h1, .container__5__text h1{
+    margin-bottom: 1em;
+    font-size: 48px;
+    line-height: 1em;
+}
+
+.container__2__text p, .container__3__text p, .container__4__text p, .container__5__text p{
+    font-size: 24px;
+
+}
+
+.container__2__image img{
+    width: 480px;
+    height: 320px;
+    margin-right: 8em;
+    margin-bottom: 2em;
+}
+
+
+.container__3__text {
+    margin-right: 8em;
+}
+
+.container__3__image img{
+    width: 520px;
+    height: 420px;
+    margin-bottom: 2em;
+}
+ 
+.container__4__text{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.container__5__text{
+  margin-right: 8em;
+}
+
+.container__5__image img{
+    width: 420px;
+    height: 380px;
+    margin-left: 8em;
+}
+
+
+.FAQ__accordian {
+    width: 100%;
+}
+
+.FAQ__title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 28px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+}
+
+.FAQ__visible {
+    background-color: #303030;
+    border-top: 1px solid black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.FAQ__visible>p {
+    margin: 1rem;
+}
+
+.FAQ__list__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    border-top: 8px solid #222;
+    padding: 2rem 0;
+}
+
+
+
+.FAQ__heading {
+    font-size: 46px;
+    text-align: center;
+    font-weight: 600;
+    margin: 1rem 3rem;
+}
+
+.FAQ__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 20rem;
+    margin-bottom: 2em;
+}
+
+
+footer {
+   background-color: #000;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem 20rem;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+}
+
+footer  p{
+    font-size: 12px;
+}
+
+.footer__row__2 {
+    display: flex;
+    gap: 8em;
+    line-height: 1.5em;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+ .footer__row__1,
+ .footer__row__3 {
+     align-self: flex-start;
+     gap: 1em;
+ }
+
+.footer__row__3{
+    margin-bottom: 4em;
+}
+
