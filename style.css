@@ -59,7 +59,7 @@ nav {
     background-color: #e50914;
     color: #ffffff;
     padding: 0.8em 1.5em 0.8em 1.5em;
-    font-weight: 700;
+    font-weight: 600;
     border: none;
     border-radius: 2.5px;
     ;
@@ -186,7 +186,6 @@ hr{
     align-items: center;
     justify-content: center;
     gap: 1.5em;
-    border-top: 8px solid #222;
     padding: 2rem 0;
 }
 
@@ -220,6 +219,7 @@ footer {
     justify-content: flex-start;
     text-align: left;
     align-items: flex-start;
+    width: 100%;
 }
 
 footer  p{
@@ -227,6 +227,7 @@ footer  p{
 }
 
 .footer__row__2 {
+    width: 100%;
     display: flex;
     gap: 6em;
     line-height: 1.5em;
