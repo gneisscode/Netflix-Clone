@@ -228,7 +228,7 @@ footer  p{
 
 .footer__row__2 {
     display: flex;
-    gap: 8em;
+    gap: 6em;
     line-height: 1.5em;
     justify-content: space-between;
     align-items: flex-start;
